@@ -1,11 +1,17 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+
+export type SkillItem = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
 
 export const SKILL_DATA = [
   {
@@ -166,12 +172,8 @@ export const BACKEND_SKILL = [
 
 ] as const;
 
-export const FULLSTACK_SKILL = [
-] as const;
-
-export const OTHER_SKILL = [
-
-] as const;
+export const FULLSTACK_SKILL: SkillItem[] = [];
+export const OTHER_SKILL: SkillItem[] = [];
 
 export const PROJECTS = [
   {
