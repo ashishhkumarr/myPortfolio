@@ -46,13 +46,20 @@ export const HeroContent = () => {
         {/* Description */}
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[500px] mx-auto md:mx-0"
+          className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[600px] mx-auto md:mx-0 leading-relaxed"
         >
-          Hi, I'm Ashish Kumar, a passionate Computer Science student at Arizona State University with a strong foundation in Java, C/C++, and software engineering. 
-          I love turning ideas into impactful solutions through clean code, intuitive design, and problem-solving skills.
+          I’m Ashish Kumar, a passionate software engineer and Computer Science undergraduate at Arizona State University (4.0 GPA).
           <br /><br />
-          With hands-on experience in data analysis and academic projects in operating systems, software engineering, and theoretical CS, 
-          I'm eager to contribute to real-world tech challenges. Beyond coding, I bring teamwork, curiosity, and a drive for continuous learning to every opportunity.
+          I love transforming ideas into reliable, efficient software solutions — whether it’s building scalable backend APIs, crafting interactive full-stack web apps, or deploying systems to the cloud. 
+          My experience spans technologies like <strong>Python (FastAPI)</strong>, <strong>React</strong>, <strong>AWS</strong>, <strong>Docker</strong>, and <strong>PostgreSQL</strong>, 
+          with a focus on creating impactful, real-world applications.
+          <br /><br />
+          I’ve gained hands-on experience through software and data internships in healthcare and analytics, along with teaching assistant roles where I honed my ability to communicate complex concepts clearly. 
+          Outside of work, I enjoy mentoring young programmers and contributing to open-source projects.
+          <br /><br />
+          Currently, I’m seeking <strong>software engineering internships for Summer 2026</strong> where I can apply my technical skills, collaborate in dynamic teams, and continue growing as a developer.
+          <br /><br />
+          <em>Let’s connect and build something impactful together!</em>
         </motion.p>
 
         {/* Call-to-Action Button */}
